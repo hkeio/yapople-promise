@@ -1,0 +1,33 @@
+{
+    "name": "yapople-promise",
+    "version": "0.0.1",
+    "description": "yapople lib with promises",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.ts",
+        "test": "jest --coverage",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hkeio/yapople-promise.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hkeio/yapople-promise/issues"
+    },
+    "homepage": "https://github.com/hkeio/yapople-promise#readme",
+    "dependencies": {
+        "yapople": "^0.3.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^24.0.15",
+        "@types/node": "^12.6.2",
+        "jest": "^24.8.0",
+        "nodemon": "^1.19.1",
+        "ts-jest": "^24.0.2",
+        "ts-node": "^8.3.0",
+        "typescript": "^3.5.3"
+    }
+}
